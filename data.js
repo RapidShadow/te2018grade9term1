@@ -19,5 +19,5 @@ console.log(bDayDay);
 console.log(bDayMonth);
 console.log(bDayYear);
 console.log(jacobIsAWeeb);
-console.log(astridIsAWeeb);
-console.log(mySocialSecurityNumber);
+console.log(astridIsAWeeb,"astridIsAWeeb");
+console.log(mySocialSecurityNumber,"mySocialSecurityNumber");
