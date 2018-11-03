@@ -7,14 +7,12 @@ const READLINE = require("readline-sync");
 console.log("*** Problem 1: R-rated ***");
 let age = READLINE.question("Enter your age: ");
 let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
+if(withAdult === "yes"){
+  console.log ('Yes, you can watch your R rated movie.')
+  }
   if(age >= 18){
     console.log('Yes, you can watch your R rated movie.')
-      if(withAdult === "yes"){
-        console.log ('Yes, you can watch your R rated movie.')
-        }
-
-    }
-
+          }
 else {
 console.log('Thats mad tuff bud, at least there is rated E movies 😂 ')
 }
