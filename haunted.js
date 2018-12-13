@@ -46,7 +46,7 @@ if(city == "y" || city == "yes") {
       }
      }
   if (decision == 1) {
-   let decision = READLINE.question("The Gunshop is empty is would you like a Assault Rifle?(yes or no)");
+   let decision = READLINE.question("The Gunshop is abandoned, would you like a Assault Rifle?(yes or no)");
    if (decision === "y" || decision === "yes") {
      let decision = READLINE.question("There is a horde of zombies approaching you, do you run or fight?");
      if (decision == "run"){
