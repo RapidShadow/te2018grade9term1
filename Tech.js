@@ -114,6 +114,10 @@ let player = {
          console.log("You kill the general and the troops listen to you and win the war.");
          console.log("you return to the kingdom and the king talks to you in person.");
          let decision = READLINE.question('The king is thankful and offers you to be his advisor or a general. Do you become a advisor(1) or general(2)?');
+         if (decision === "2"){
+           console.log("A assassin stabs you to death.");
+           console.log("He explains that his brother was the general.");
+         }
          if (decision === "1"){
            console.log("After service to the king for 4 years, he dies.");
            let decision = READLINE.question("Do you step up as the king(1), or do you let the princess become the queen(2).");
